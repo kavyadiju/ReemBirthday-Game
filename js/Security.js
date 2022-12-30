@@ -1,7 +1,7 @@
 class Security {
 
     constructor(){
-        this.access1 = createInput("Code3")
+        this.access1 = createInput("").attribute("placeholder", "Enter the day");
         this.access1.position(700,330);
         this.access1.style('background', 'white');  1
         this.button1 = createButton('Check');
